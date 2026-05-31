@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: rgb(18, 93, 243);
+    --cor1: rgb(18, 93, 243);
+    --cor2: rgb(18, 93, 243);
+    --cor3: rgb(18, 93, 243);
+    --cor4: rgb(243, 89, 18);
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-android: 'Courier New', sans-serif;
+    
+    --font-size-padrao: 20px;
+     --font-size-grande: 30px;
+      --font-size-mtgrande: 36px;
+}
+
+body {
+    background-color: rgb(16, 177, 231);
+}
+
+main {
+    background-color: rgb(219, 243, 209);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    margin: 50px auto auto auto;
+}
+
+.box div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: var(--font-size-mtgrande);
+    border: 2px solid black;
+    color: var(--cor2);
+}
+
+
+
+
+
+p {
+    font-family: var(--font-padrao);
+    font-size: var(--font-size-padrao);
+    margin: 20px;
+}
+h1 {
+    font-family: var(--font-android);
+    font-size: var(--font-size-mtgrande);
+    background-color: var(--cor4);
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}

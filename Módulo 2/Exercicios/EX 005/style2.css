@@ -1,0 +1,6 @@
+div {
+    background-color: lightblue;
+}
+div:active {
+    background-color: lightgreen;
+}

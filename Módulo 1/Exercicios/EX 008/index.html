@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias dinâmicas</title>
+</head>
+<body>
+    
+    <h1>Imagens dinâmicas</h1>
+    <p>Deixar os sites adaptados os diversos tipos de dispositivos é uma necessidade no ambiente digital atual.</p>
+    <p>E com isso temos que considerar o tamanho das imagens e vídeos para que sejam exibidos corretamente em diferentes dispositivos.</p>
+    <h2>Tente abrir esse em outros dispositivos para ver como as imagens se adaptam.</h2>
+    <picture>
+        <source media="(max-width: 723px )" srcset="imagens/imagem_pequena.png" type="image/png">
+        <source media="(max-width: 1024px )" srcset="imagens/imagem_media.png" type="image/png">
+        <img src="Imagens/imagem_grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Áudios</h1>
+    <audio preload="auto" autoplay>
+        <source src="audio/George Michael - Careless Whisper (Official Video).mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

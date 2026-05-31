@@ -1,0 +1,35 @@
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    font-size: 4em;
+    text-align: center;
+}
+.box:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.box#box1 {
+    color: red;
+}
+
+#box2 {
+    color: green;
+}
+
+#box3 {
+    color: blue;
+}
+
+#irineu p {
+     display: none;
+}
+
+#irineu:hover p {
+    display: block;
+    color: purple;
+    font-size: 1.5em;
+}

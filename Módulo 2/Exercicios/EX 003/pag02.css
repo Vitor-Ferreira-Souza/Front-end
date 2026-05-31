@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@font-face {
+    font-family: "Nabla";
+    src: url(assets/fonts/Nabla/nabla.ttf) format(truetype);
+}
+
+.google-link{
+  font-family: "Fjalla One", sans-serif;;
+}
+
+#h1 {
+    font-size: 3em ;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#p1 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.google-download {
+    font-family: Nabla, sans-serif;
+}
+
+#h2 {
+    font-size: 5em;
+    text-align: center;
+}
+
+#p2 {
+    font-size: 3em;
+}
