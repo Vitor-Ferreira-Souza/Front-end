@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse; 
+        }
+        caption {
+            padding: 20px;
+            font-size: 1.5em;
+            background-color: lightgray;
+        }
+        th {
+            padding: 15px;
+            color: white;
+            background-color: grey;
+        }
+        td {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        .cnome {
+            background-color: yellow;
+        }
+        .csexo {
+            background-color: beige;
+        }
+        .cidade {
+            background-color: green;
+        }
+        .cprofi {
+            background-color: blue;
+        }
+        .tab-responsiva {
+            overflow-x: scroll;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tabela bla bla bla</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis corrupti, beatae laudantium eos sed dolorum, similique ullam iusto recusandae perferendis modi harum eveniet maxime. Asperiores porro unde reiciendis deserunt repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vitae, illo, temporibus fuga atque fugit autem eum quas laborum dicta perferendis. Accusamus dignissimos ad facere nulla ipsum explicabo quo voluptatum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quisquam quos delectus consequuntur, rem dolores vitae voluptatem error, repudiandae cupiditate magnam. Minus cumque explicabo dolorem numquam! In magni repudiandae ab.</p>
+    <div class="tab-responsiva">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade" span="2">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cladio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, deserunt aperiam sit corrupti officiis incidunt! Quisquam autem cum esse! Quod ad cum quasi dolor provident praesentium consequuntur vitae consequatur asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reiciendis minus, consequuntur deserunt ullam dolor iusto aut ea quasi tempora praesentium sed ab nihil laborum pariatur fugit maxime ex adipisci?</p>
+</body>
+</html>
